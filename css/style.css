@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+@import "nullstyle.scss";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteiner {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.header {
+    background-color: #FFFFFF;
+    margin-bottom: 241px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #323232;
+    line-height: 55px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.desc {
+    font-size: 20px;
+    font-weight: 700;
+    color: #323232;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-sec {
+    display: flex;
+}
+
+.title-logo {
+    margin-top:  20px;
+    font-weight: 100;
+}
+
+.btn {
+    background: #F78434;
+    border-radius: 29px;
+    width: 157px;
+    height: 58px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-left: 50px;
+    
+}
+
+.img {
+    border-radius: 40px 40px 40px 0px;
+    width: 540px;
+    height: 676px;
+    margin-left: 50px;
+}
+
+
+.main-sec {
+    display: flex;
+    justify-content: space-between;
+    background:  #F5F6FA;
+    margin-bottom: 145px;
+    padding-bottom: 100px;
+}
+
+.main-left {
+    display: flex;
+    padding-top: 100px;
+}
+.img-main {
+    border-radius: 20px;
+    padding-left: 32px;
+    width: 500px;
+    height: 500px;
+}
+
+.img-main-1 {
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}
+.main-right {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-top: 209px;
+    
+}
+
+.title-main {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 32px;
+    color:  #323232;
+    
+}
+
+.desc-main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #323232;
+    padding-top: 20px;
+}
+
+.btn-loren {
+    background: #F78434;
+    border-radius: 29px;
+    color: #F5F6FA;
+    width: 171px;
+    height: 56px;
+    margin-top:  40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background:  #FFFFFF;
+}
+
+.logo-footer {
+    margin-right: 100px;
+}
+.icon {
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
